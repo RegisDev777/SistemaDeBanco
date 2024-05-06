@@ -21,11 +21,7 @@ private Double saldo;
       //Getters e setters		
 		public Cliente getTitular() {
 			return titular;
-		} 
-		public void setTitular(Cliente titular) {
-			this.titular = titular;
-		}
-		
+		} 		
 
 		public int getNumero() {
 			return numero;
@@ -54,7 +50,7 @@ private Double saldo;
 		@Override
 		public String toString() {
 			  StringBuilder st = new StringBuilder();
-			  st.append("BANCO DioIntertnatinal: "  + "\n");
+			  st.append("BANCO DioIntertnational: "  + "\n");
 			  st.append("TITULAR: " + getTitular().getTitular() + "\n");
 			  st.append("AGENCIA:" + getAgencia()  + "\n");
 			  st.append("CONTA:" + getNumero() + "\n");
